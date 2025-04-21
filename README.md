@@ -68,25 +68,7 @@ The analysis is implemented in Python using the following libraries:
   - email_opened_table.csv
   - link_clicked_table.csv
 
-## How to Run the Analysis
 
-1. **Setup Environment**:
-   ```bash
-   # Create and activate virtual environment (optional)
-   python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
-   
-   # Install required packages
-   pip install pandas numpy scikit-learn xgboost imbalanced-learn matplotlib seaborn statsmodels jupyter
-   ```
-
-2. **Run the Notebook**:
-   ```bash
-   jupyter notebook answers.ipynb
-   ```
-
-3. **Follow the Analysis**:
-   The notebook is structured to address each question sequentially, with clear markdown sections and code comments explaining the approach and findings.
 
 ## Recommendations for the Marketing Team
 
@@ -118,6 +100,3 @@ The analysis is implemented in Python using the following libraries:
 - Expand analysis to include email subject line optimization
 - Integrate with product recommendation system for personalized content
 
-## Contact
-
-For questions or clarification about this analysis, please contact [Your Contact Information]. 
